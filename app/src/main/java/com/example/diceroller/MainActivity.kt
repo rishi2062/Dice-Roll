@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
         toast.show()
     }
 }
-// Code For the Dice Logic
+// Code For the Dice Logic to give number
 class Dice(private val numSides: Int) {
     fun roll(): Int {
         return (1..numSides).random()
